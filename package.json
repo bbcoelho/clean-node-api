@@ -4,7 +4,11 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "npx jest --watch"
+        "test": "npx jest --silent --noStackTrace --runInBand",
+        "test:unit": "npm run test  -- --watch -c jest-unit-config.js",
+        "test:integration": "npm run test  -- --watch -c jest-integration-config.js",
+        "test:ci": "npm run test  -- --coverage",
+        "test:verbose": "npx jest --runInBand"
     },
     "keywords": [],
     "author": "",
