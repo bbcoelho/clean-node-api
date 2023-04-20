@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/bbcoelho/clean-node-api.git",
   "author": "Bruno Coelho <bbcoelho@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.12",
+    "typescript": "^5.0.4"
+  }
 }
