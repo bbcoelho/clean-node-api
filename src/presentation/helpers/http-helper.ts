@@ -1,4 +1,4 @@
-import { HttpResponse } from "../protocols/http"
+import { HttpResponse } from '../protocols/http'
 
 export function badrequest(error: Error): HttpResponse {
   return {
